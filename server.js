@@ -12,7 +12,7 @@ var jsonProductsData = require('./jsons/products.json');
 
 app.get('/', (req, res) => {
 
-	res.send('hey This is Awsome');
+	res.send('<div align = "center">Yell India Rockzz</div>');
 	
 });
 
