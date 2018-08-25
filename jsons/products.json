@@ -1,0 +1,51 @@
+{
+  "1" : {
+  	"id" : 1,
+    "image_url1" : "http://localhost:4000/img/product/1",
+    "image_url2" : "http://localhost:4000/img/product/1",
+    "image_url3" : "http://localhost:4000/img/product/1",
+    "name" : "Garment dyed shirt sweat1",
+    "brand" : "Stone island",
+    "price" : "₹ 269",
+    "offer_price" : "",
+    "size" : "XL",
+    "category" : "T-Shirt",
+    "description" : "null"
+  },
+  "2" : {
+  	"id": 2,
+    "image_url1": "http://localhost:4000/img/product/2",
+    "image_url2": "http://localhost:4000/img/product/2",
+    "image_url3": "http://localhost:4000/img/product/2",
+    "name": "Garment dyed shirt sweat2",
+    "brand": "Stone island",
+    "price": "₹ 269",
+    "offer_price": "260",
+    "size": "XL",
+    "description" : "null"
+  },
+  "3" : {
+  	"id": 3,
+    "image_url1": "http://localhost:4000/img/product/2",
+    "image_url2": "http://localhost:4000/img/product/2",
+    "image_url3": "http://localhost:4000/img/product/2",
+    "name": "Garment dyed shirt sweat2",
+    "brand": "Stone island",
+    "price": "₹ 269",
+    "offer_price": "260",
+    "size": "XL",
+    "description" : "null"
+  },
+    "4" : {
+  	"id": 4,
+    "image_url1": "http://localhost:4000/img/product/2",
+    "image_url2": "http://localhost:4000/img/product/2",
+    "image_url3": "http://localhost:4000/img/product/2",
+    "name": "Garment dyed shirt sweat2",
+    "brand": "Stone island",
+    "price": "₹ 269",
+    "offer_price": "260",
+    "size": "XL",
+    "description" : "null"
+  }
+}
