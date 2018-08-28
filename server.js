@@ -164,6 +164,13 @@ app.get('/insertItemIntoCart/:userId/:productId', (req, res) => {
 
 		data[userId]  = cartProductsId;
 		
+		
+		var response = {
+		
+		message : "success"
+		
+		}
+
 		fs.writeFile(cartDataPath, JSON.stringify(data), function (err) {
 			  
 			  if (err) return console.log(err);
@@ -171,7 +178,7 @@ app.get('/insertItemIntoCart/:userId/:productId', (req, res) => {
 			  console.log('writing to ' + cartDataPath);
 		});
 
-		res.send("Item Added to your cart");
+		res.send(JSON.stringify(prepareResponseData(response)));
 	})
 
 });
@@ -198,15 +205,15 @@ app.get('/img/new_arrivals/:id', (req, res) => {
 
 var newArrivals = [
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/1",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/1",
         "id" : 1
       },
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/2",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/2",
         "id" : 2
       },
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/3",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/3",
         "id" : 3
       }
     ]
