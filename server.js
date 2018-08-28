@@ -79,12 +79,26 @@ app.get('/getCartDetails/:userId', (req, res) => {
   	if (err) throw err;
 	
 	var userCartProductIdArray = JSON.parse(data)[id];
-	
+	var cartdata = []
 	var x;
 
 	for (x in userCartProductIdArray) {
+		
+		item = jsonProductsData[userCartProductIdArray[x]]
+		
+		var resData = {
+			id : item.id,
+			name : item.name,
+			image_url : item.image_url1,
+			quantity : 1,
+			tax: item.tax,
+			price : item.price
+		}
 
-		cartData.push(jsonProductsData[userCartProductIdArray[x]]);
+		cartData.push(resData);
+
+		// console.log(resData)
+		// cartData.push(jsonProductsData[userCartProductIdArray[x]]);
 
 	}
 
@@ -98,6 +112,8 @@ app.get('/getCartDetails/:userId', (req, res) => {
 app.get('/clearCart/:userId', (req, res) => {
 
 	var userId = req.params.userId;
+
+	console.log("req received")
 	
 	fs.readFile(cartDataPath, 'utf8', (err, data) => {
 
@@ -108,15 +124,25 @@ app.get('/clearCart/:userId', (req, res) => {
 		data[userId]  = [];
 
 		console.log(data);
+
+		var response = {
+		
+		message : "success"
+		
+		}
 		
 		fs.writeFile(cartDataPath, JSON.stringify(data), function (err) {
 			  
 			  if (err) return console.log(err);
 			  			  
 			  console.log('writing to ' + cartDataPath);
+
+	  		res.send(JSON.stringify(prepareResponseData(response)));
+
 		});
 
-		res.send(`cart items cleared of user ${userId}`);
+
+
 	})
 
 });
@@ -137,8 +163,6 @@ app.get('/insertItemIntoCart/:userId/:productId', (req, res) => {
 		cartProductsId.push(productId);
 
 		data[userId]  = cartProductsId;
-
-		console.log(data);
 		
 		fs.writeFile(cartDataPath, JSON.stringify(data), function (err) {
 			  
@@ -157,6 +181,8 @@ app.get('/getImage/product/:productId/:imageNo', (req, res) => {
   var productId = req.params.productId
 
   var imageNo = req.params.imageNo
+
+  console.log(productId, imageNo)
    
   res.sendFile(__dirname + '/images/products/' + productId + '/' + imageNo + '.png');
 
@@ -172,15 +198,15 @@ app.get('/img/new_arrivals/:id', (req, res) => {
 
 var newArrivals = [
       {
-        "new_arrival_imageurl": "localhost:4000/img/new_arrivals/1",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/1",
         "id" : 1
       },
       {
-        "new_arrival_imageurl": "localhost:4000/img/new_arrivals/2",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/2",
         "id" : 2
       },
       {
-        "new_arrival_imageurl": "localhost:4000/img/new_arrivals/3",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/3",
         "id" : 3
       }
     ]
@@ -199,8 +225,10 @@ function prepareResponseData (data){
 	return response
 }
 
+
+
 app.listen(port, () => {
 
-  console.log("listen on 4000");
+  console.log("listen on 3000");
 
 });
