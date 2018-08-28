@@ -198,15 +198,15 @@ app.get('/img/new_arrivals/:id', (req, res) => {
 
 var newArrivals = [
       {
-        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/1",
+        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/1",
         "id" : 1
       },
       {
-        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/2",
+        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/2",
         "id" : 2
       },
       {
-        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/3",
+        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/3",
         "id" : 3
       }
     ]
