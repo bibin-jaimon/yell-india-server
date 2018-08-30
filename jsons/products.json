@@ -18,7 +18,7 @@
         "image_url2" : "https://yi-server.herokuapp.com/getImage/product/2/2",
         "image_url3" : "https://yi-server.herokuapp.com/getImage/product/2/3",
         "name" : "Garment dyed shirt sweat1",
-        "brand" : "Stone island",
+        "brand" : "Tommy Hilfiger",
         "price" : 26,
         "offer_price" : "",
         "size" : "XL",
@@ -43,12 +43,12 @@
         "image_url1" : "https://yi-server.herokuapp.com/getImage/product/4/1",
         "image_url2" : "https://yi-server.herokuapp.com/getImage/product/4/2",
         "image_url3" : "https://yi-server.herokuapp.com/getImage/product/4/3",
-        "name" : "Garment dyed shirt sweat1",
-        "brand" : "Stone island",
+        "name" : "Garment dyed shirt1",
+        "brand" : "GANT",
         "price" : 269,
         "offer_price" : "",
         "size" : "XL",
-        "description" : "null",
+        "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
   }
 }
