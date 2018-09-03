@@ -46,7 +46,24 @@ app.get('/getLandingPageData/:userId', (req, res) => {
 
 	fs.readFile(cartDataPath, 'utf8', function (err, data) {
 
-		resData.cartItemCount = (JSON.parse(data))[userId].length
+		//resData.cartItemCount = (JSON.parse(data))[userId].length
+
+		var userCartProductIdArray = JSON.parse(data)[userId];
+		var productQuantity = {}
+		var y;
+		for (y in userCartProductIdArray) {
+			
+			if (productQuantity[userCartProductIdArray[y]] === undefined) {
+				productQuantity[userCartProductIdArray[y]] = 1
+			} else {
+				productQuantity[userCartProductIdArray[y]]++
+			}
+		}
+		//resData.cartItemCount = (JSON.parse(data))[userId].length
+		
+		resData.cartItemCount = Object.keys(productQuantity).length
+		console.log(resData.cartItemCount, productQuantity)
+		
 
 		res.send(JSON.stringify(prepareResponseData(resData)))
 
