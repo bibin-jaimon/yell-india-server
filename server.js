@@ -68,6 +68,7 @@ app.get('/getLandingPageData/:userId', (req, res) => {
 	});
 	
 });
+
 //Single product details
 
 app.get('/product/details/:id', (req, res) => {
@@ -96,8 +97,9 @@ app.get('/getCartDetails/:userId', (req, res) => {
 	var cartdata = []
 	var x,y;
 	console.log(userCartProductIdArray)
-	var productQuantity = {}
+	
 
+	var productQuantity = {}
 	for (y in userCartProductIdArray) {
 		
 		if (productQuantity[userCartProductIdArray[y]] === undefined) {
@@ -210,7 +212,7 @@ app.get('/insertItemIntoCart/:userId/:productId', (req, res) => {
 
 		data[userId]  = cartProductsId;
 		
-		
+
 		var response = {
 		
 		message : "success"
@@ -251,15 +253,15 @@ app.get('/img/new_arrivals/:id', (req, res) => {
 
 var newArrivals = [
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/1",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/1",
         "id" : 1
       },
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/2",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/2",
         "id" : 2
       },
       {
-        "new_arrival_imageurl": "https://yi-server.herokuapp.com/img/new_arrivals/3",
+        "new_arrival_imageurl": "http://localhost:3000/img/new_arrivals/3",
         "id" : 3
       }
     ]
