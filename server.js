@@ -30,15 +30,13 @@ app.get('/getLandingPageData/:userId', (req, res) => {
 		cartItemCount : 0
 	}
 
-	// console.log(Object.keys(jsonProductsData).length)
+	console.log(Object.keys(jsonProductsData).length)
 
 	// console.log(Object.keys(jsonProductsData))
 
 	var productKeys = Object.keys(jsonProductsData)
 
 	for (x in productKeys) {
-
-		console.log(x, productKeys);
 
 		resData.products.push(jsonProductsData[productKeys[x]]);
 
@@ -70,7 +68,6 @@ app.get('/getLandingPageData/:userId', (req, res) => {
 	});
 	
 });
-
 //Single product details
 
 app.get('/product/details/:id', (req, res) => {
