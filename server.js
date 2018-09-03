@@ -80,27 +80,59 @@ app.get('/getCartDetails/:userId', (req, res) => {
 	
 	var userCartProductIdArray = JSON.parse(data)[id];
 	var cartdata = []
-	var x;
+	var x,y;
+	console.log(userCartProductIdArray)
+	var productQuantity = {}
 
-	for (x in userCartProductIdArray) {
+	for (y in userCartProductIdArray) {
 		
+		if (productQuantity[userCartProductIdArray[y]] === undefined) {
+			productQuantity[userCartProductIdArray[y]] = 1
+		} else {
+			productQuantity[userCartProductIdArray[y]]++
+		}
+	}
+	
+	console.log(productQuantity)
+
+	for (x in productQuantity) {
+
 		item = jsonProductsData[userCartProductIdArray[x]]
-		
+
 		var resData = {
-			id : item.id,
+			id : x,
 			name : item.name,
 			image_url : item.image_url1,
-			quantity : 1,
+			quantity : productQuantity[x],
 			tax: item.tax,
 			price : item.price
 		}
 
 		cartData.push(resData);
 
-		// console.log(resData)
-		// cartData.push(jsonProductsData[userCartProductIdArray[x]]);
-
 	}
+
+	// for (x in userCartProductIdArray) {
+		
+
+
+	// 	item = jsonProductsData[userCartProductIdArray[x]]
+		
+	// 	var resData = {
+	// 		id : item.id,
+	// 		name : item.name,
+	// 		image_url : item.image_url1,
+	// 		quantity : 1,
+	// 		tax: item.tax,
+	// 		price : item.price
+	// 	}
+
+	// 	cartData.push(resData);
+
+	// 	// console.log(resData)
+	// 	// cartData.push(jsonProductsData[userCartProductIdArray[x]]);
+
+	// }
 
 	res.send(JSON.stringify(prepareResponseData(cartData)));
 
