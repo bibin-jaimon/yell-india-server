@@ -94,7 +94,7 @@ app.get('/getCartDetails/:userId', (req, res) => {
   	if (err) throw err;
 	
 	var userCartProductIdArray = JSON.parse(data)[id];
-	var cartdata = []
+	//var cartdata = []
 	var x,y;
 	console.log(userCartProductIdArray)
 	
@@ -113,8 +113,11 @@ app.get('/getCartDetails/:userId', (req, res) => {
 
 	for (x in productQuantity) {
 
-		item = jsonProductsData[userCartProductIdArray[x]]
-
+		item = jsonProductsData[productQuantity[x]]
+		
+		if (item == undefined) {
+			console.log(x, productQuantity[x])
+		}
 		var resData = {
 			id : x,
 			name : item.name,
@@ -127,28 +130,6 @@ app.get('/getCartDetails/:userId', (req, res) => {
 		cartData.push(resData);
 
 	}
-
-	// for (x in userCartProductIdArray) {
-		
-
-
-	// 	item = jsonProductsData[userCartProductIdArray[x]]
-		
-	// 	var resData = {
-	// 		id : item.id,
-	// 		name : item.name,
-	// 		image_url : item.image_url1,
-	// 		quantity : 1,
-	// 		tax: item.tax,
-	// 		price : item.price
-	// 	}
-
-	// 	cartData.push(resData);
-
-	// 	// console.log(resData)
-	// 	// cartData.push(jsonProductsData[userCartProductIdArray[x]]);
-
-	// }
 
 	res.send(JSON.stringify(prepareResponseData(cartData)));
 
