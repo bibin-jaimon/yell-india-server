@@ -119,7 +119,7 @@ app.get('/getCartDetails/:userId', (req, res) => {
 			console.log(x, productQuantity[x])
 		}
 		var resData = {
-			id : x,
+			id : Number(x),
 			name : item.name,
 			image_url : item.image_url1,
 			quantity : productQuantity[x],
