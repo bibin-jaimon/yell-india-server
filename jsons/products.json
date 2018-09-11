@@ -7,7 +7,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -20,7 +20,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -33,7 +33,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -46,7 +46,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -59,7 +59,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -72,7 +72,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -85,7 +85,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -98,7 +98,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -111,7 +111,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -124,7 +124,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -137,7 +137,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -150,7 +150,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -163,7 +163,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -176,7 +176,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -189,7 +189,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -202,7 +202,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -215,7 +215,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -228,7 +228,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -241,7 +241,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -254,7 +254,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -267,7 +267,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -280,7 +280,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -293,7 +293,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -306,7 +306,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -319,7 +319,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -332,7 +332,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -345,7 +345,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -358,7 +358,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -371,7 +371,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -384,7 +384,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -397,7 +397,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -410,7 +410,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
@@ -423,7 +423,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 1269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Our T-shirts are made of the most comfortable, highest quality fabric out there today. The tri-blend cotton-poly mix comes from none other than American Apparel in Los Angeles, while the printing is done right here in Dayton by our partner Four Ambition. With these T-shirts, you not only feel the difference in comfort, but also feel the pride in bearing the logo of one of the world’s most famous names.",
         "tax" : 10
@@ -436,7 +436,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Tommy Hilfiger",
         "price" : 26,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 10
@@ -449,7 +449,7 @@
         "name" : "Garment dyed shirt sweat1",
         "brand" : "Stone island",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "null",
         "tax" : 14
@@ -462,7 +462,7 @@
         "name" : "Garment dyed shirt1",
         "brand" : "GANT",
         "price" : 269,
-        "offer_price" : "",
+        "offer_price" : 200,
         "size" : "XL",
         "description" : "Every wardrobe needs a solid set of go-to t-shirts that fit almost any casual occasion. Whether you’re looking to make a statement, just hanging out in the city, hitting the gym, or showing off for a first date, you can’t go wrong with a t-shirt. Check out this collection of men’s t-shirt brands with great branding and the online shops they’re available at. No matter what your style or budget you can find some really cool t-shirts in the list below.",
         "tax" : 20
