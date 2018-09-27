@@ -16,6 +16,11 @@ app.get('/', (req, res) => {
 	
 });
 
+var nameArray = ["Adarsh", "Nithin", "Bibin"];
+app.get('/api/sample', (req, res) => {
+	res.send(JSON.stringify(nameArray));
+});
+
 //LANDING PAGE DATA
 app.get('/getLandingPageData/:userId', (req, res) => {
 
