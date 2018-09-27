@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 var nameArray = ["Adarsh", "Nithin", "Bibin"];
 app.get('/api/sample', (req, res) => {
-	res.send(JSON.stringify(nameArray));
+	res.send(JSON.stringify(prepareResponseData(nameArray)));
 });
 
 //LANDING PAGE DATA
