@@ -10,6 +10,23 @@ const cartDataPath = 'jsons/myCart.json';
 
 var jsonProductsData = require('./jsons/products.json');
 
+app.get('/api/nitz/homePage', (req, res) => {
+
+	fs.readFile(NithinApiPath,'utf8', function (err, data) {
+		console.log(data)
+		res.send(JSON.stringify(prepareResponseData(data)))
+	})
+
+});
+
+
+app.post('/imageUploader', (req, res) => {
+
+
+
+});
+
+
 app.get('/', (req, res) => {
 
 	res.send('<div align = "center">Yell India Rockzz</div>');
