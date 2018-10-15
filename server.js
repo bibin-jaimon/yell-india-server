@@ -7,7 +7,7 @@ var app = express()
 var port = Number(process.env.PORT || 3000);
 
 const cartDataPath = 'jsons/myCart.json';
-
+const NithinApiPath = 'jsons/nits.json';
 var jsonProductsData = require('./jsons/products.json');
 
 app.get('/api/nitz/homePage', (req, res) => {
