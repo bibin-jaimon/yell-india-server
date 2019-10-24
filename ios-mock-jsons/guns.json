@@ -58,5 +58,65 @@
     "accuracy": 67,
     "range": 50,
     "mobility": 60
+  },
+  {
+    "id": 6,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Five",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 7,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Five",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 8,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Five",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 9,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Five",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 10,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Five",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
   }
 ]
