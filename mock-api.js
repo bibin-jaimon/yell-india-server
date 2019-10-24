@@ -14,7 +14,7 @@ var gunDBData = require('./ios-mock-jsons/guns.json')
 
 
 app.get('/gunsData', (req, res)=>{
-	res.send(jsonProductsData);
+	res.send(gunDBData);
 });
 
 
