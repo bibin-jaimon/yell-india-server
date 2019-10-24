@@ -10,6 +10,14 @@ const cartDataPath = 'jsons/myCart.json';
 const NithinApiPath = 'jsons/nits.json';
 var jsonProductsData = require('./jsons/products.json');
 
+var gunDBData = require('./ios-mock-jsons/guns.json')
+
+
+app.get('/gunsData', (req, res)=>{
+	res.send(jsonProductsData);
+});
+
+
 app.get('/api/nitz/homePage', (req, res) => {
 
 	fs.readFile(NithinApiPath,'utf8', function (err, data) {

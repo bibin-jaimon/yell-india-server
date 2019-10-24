@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "M4",
+    "desc": "M4 is Assault Rifle which already featured Call of Duty 4: Modern Warfare, Modern Warfare 2, Modern Warfare: Mobilized, Modern Warfare 3, Modern Warfare 3: Defiance, Call of Duty Online.",
+    "imageURL": "sample",
+    "category": "Gun Two",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 70,
+    "range": 45,
+    "mobility": 60
+  },
+  {
+    "id": 2,
+    "name": "AK47",
+    "desc": "AK47 is Known for giving highest damage. But the gun recoil is very high.AK47 Gun is One Assault Rifle gun which giving 55 fire rates in Call Of Duty mobile.",
+    "imageURL": "sample",
+    "category": "Gun Three",
+    "damage": 70,
+    "fireRate": 55,
+    "accuracy": 45,
+    "range": 65,
+    "mobility": 60
+  },
+  {
+    "id": 3,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun One",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 4,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun Two",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  },
+  {
+    "id": 5,
+    "name": "LK24",
+    "desc": "LK24 is Automatic Assault Rifle which is giving average Damage to the enemy in Call Of Duty Mobile. This gun is known for its Accuracy. LK24 is supporting red dot,2X,3X,4X, and 6x scope.",
+    "imageURL": "sample",
+    "category": "Gun One",
+    "damage": 45,
+    "fireRate": 60,
+    "accuracy": 67,
+    "range": 50,
+    "mobility": 60
+  }
+]
